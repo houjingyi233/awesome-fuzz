@@ -156,10 +156,6 @@ restler-fuzzer(https://github.com/microsoft/restler-fuzzer)
 
 有些时候fuzz还会遇到状态的问题，特别是一些网络协议的fuzz，触发漏洞的路径可能很复杂，所以提出了Stateful Fuzzing的概念，通过程序运行中的状态机来指导fuzz，restler-fuzzer就是微软开发的第一个Stateful REST API Fuzzing工具。
 
-sqlancer(https://github.com/sqlancer/sqlancer)
-
-这套工具实现了一套基于Java的SQL抽象语法树(AST)，通过一系列的方法检查DBMS的结果正确性。
-
 ## 其他辅助工具
 
 BugId(https://github.com/SkyLined/BugId)
@@ -294,9 +290,15 @@ fuzz android系统服务：
 
 [https://github.com/houjingyi233/macOS-iOS-system-security](https://github.com/houjingyi233/macOS-iOS-system-security)
 
+### DBMS
+
+关于DBMS的漏洞挖掘资料可以参考这里：
+
+[https://github.com/zhangysh1995/awesome-database-testing](https://github.com/zhangysh1995/awesome-database-testing)
+
 ### VM
 
-关于VMware漏洞挖掘资料这个老外整理的比较全：
+关于VMware的漏洞挖掘资料可以参考这里：
 
 [https://github.com/xairy/vmware-exploitation](https://github.com/xairy/vmware-exploitation)
 
