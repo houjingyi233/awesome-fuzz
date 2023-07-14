@@ -166,6 +166,12 @@ binspector(https://github.com/binspector/binspector)
 
 二进制格式分析。
 
+apicraft(https://github.com/occia/apicraft)
+
+GraphFuzz(https://github.com/hgarrereyn/GraphFuzz)
+
+自动化生成harness。
+
 ## blog
 
 ### general
