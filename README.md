@@ -208,6 +208,10 @@ PDF：
 
 [Creating a fuzzing harness for FoxitReader 9.7 ConvertToPDF Function](https://christopher-vella.com/2020/02/28/creating-a-fuzzing-harness-for-foxitreader-9-7-converttopdf-function/)
 
+MSMQ：
+
+[FortiGuard Labs Discovers Multiple Vulnerabilities in Microsoft Message Queuing Service](https://www.fortinet.com/blog/threat-research/microsoft-message-queuing-service-vulnerabilities)
+
 windows图片解析：
 
 [Fuzzing Image Parsing in Windows, Part One: Color Profiles](https://www.mandiant.com/resources/fuzzing-image-parsing-in-windows-color-profiles)
