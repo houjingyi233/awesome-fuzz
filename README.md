@@ -56,6 +56,10 @@ e9patch(https://github.com/GJDuck/e9patch)
 
 二进制静态插桩，使得AFL能够fuzz x64的Linux ELF二进制文件。
 
+zafl(https://git.zephyr-software.com/opensrc/zafl)
+
+二进制静态插桩，使得AFL能够fuzz x64的Linux ELF二进制文件。
+
 retrowrite(https://github.com/HexHive/retrowrite)
 
 二进制静态插桩，使得AFL能够fuzz x64和aarch64的Linux ELF二进制文件。
