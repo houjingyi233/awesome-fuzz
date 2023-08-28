@@ -1,6 +1,6 @@
 # Awesome Fuzzing Resources
 
-记录一些fuzz的工具和论文。[https://github.com/secfigo/Awesome-Fuzzing](https://github.com/secfigo/Awesome-Fuzzing)可能很多人看过，我也提交过一些Pull Request，但是觉得作者维护不是很勤快：有很多过时的信息，新的信息没有及时加入，整体结构也很乱。干脆自己来整理一个。欢迎随时提出issue和Pull Request。
+记录一些fuzz的工具和论文。[https://github.com/secfigo/Awesome-Fuzzing](https://github.com/secfigo/Awesome-Fuzzing)可能很多人看过，我也提交过一些Pull Request，但是觉得作者维护不是很勤快：有很多过时的信息，新的信息没有及时加入，整体结构也很乱。而且很多paper细节太模糊又不开源，其实也没有参考意义，不用去浪费时间看。所以干脆自己来整理一个，如果没有开源或者没有真正发现到0day，基本我是不会放进来的。欢迎随时提出issue和Pull Request。
 
 ## books
 
@@ -40,11 +40,11 @@ libfuzzer作者不再维护之后开的一个新坑，功能更强大更容易�
 
 winafl(https://github.com/googleprojectzero/winafl)
 
-project zero成员@ifratric将AFL移植到Windows上对闭源软件进行覆盖率引导的fuzz，通过DynamoRIO实现动态插桩。
+project zero成员@ifratric将AFL移植到Windows上对闭源软件进行覆盖率引导的fuzz，通过DynamoRIO实现动态插桩，后来也支持通过[TinyInst](https://github.com/googleprojectzero/TinyInst)实现动态插桩。@ifratric刚刚把TinyInst搞出来的时候其实就有人把TinyInst和AFL结合到一起了:[TinyAFL](https://github.com/linhlhq/TinyAFL)。
 
 Jackalope(https://github.com/googleprojectzero/Jackalope)
 
-Jackalope同样是@ifratric的作品，估计是对AFL/winafl不太满意，写了这个fuzzer(最开始是只支持Windows和macOS，后来也支持Linux和Android)。
+Jackalope同样是@ifratric的作品，估计是对AFL/winafl不太满意，写了这个fuzzer(最开始是只支持Windows和macOS，后来也支持Linux和Android)，这个也是通过TinyInst实现动态插桩。
 
 pe-afl(https://github.com/wmliang/pe-afl)
 
@@ -156,11 +156,19 @@ libprotobuf-mutator(https://github.com/google/libprotobuf-mutator)
 
 2016年google提出Structure-Aware Fuzzing，并基于libfuzzer与protobuf实现了libprotobuf-mutator，它弥补了peach的无覆盖引导的问题，也弥补了afl对于复杂输入类型的低效变异问题。Structure-Aware Fuzzing并不是什么新技术，跟Peach的实现思路是一样的，只是对输入数据类型作模板定义，以提高变异的准确率。
 
+h26forge(https://github.com/h26forge/h26forge)
+
+也是Structure-Aware Fuzzing，生成畸形H.264文件。
+
 restler-fuzzer(https://github.com/microsoft/restler-fuzzer)
 
 有些时候fuzz还会遇到状态的问题，特别是一些网络协议的fuzz，触发漏洞的路径可能很复杂，所以提出了Stateful Fuzzing的概念，通过程序运行中的状态机来指导fuzz，restler-fuzzer就是微软开发的第一个Stateful REST API Fuzzing工具。
 
 ## 其他辅助工具
+
+common-corpus(https://github.com/isosceles-security/common-corpus)
+
+通过Common Crawl构建语料库，这个还是挺有意义的，很少有文章提到语料库的问题，但是一个好的语料库是绝对能大大提高发现漏洞的概率的。我有一个private的语料库，主要是收集了一些高质量的常见格式的POC和自己生成的语料，就不公开分享了，这里是我整理的一些参考的语料库：https://github.com/houjingyi233/fuzz-corpus
 
 BugId(https://github.com/SkyLined/BugId)
 
@@ -315,6 +323,10 @@ fuzz android系统服务：
 关于VMware的漏洞挖掘资料可以参考这里：
 
 [https://github.com/xairy/vmware-exploitation](https://github.com/xairy/vmware-exploitation)
+
+关于Hyper-V的漏洞挖掘资料可以参考这里：
+
+[https://github.com/gerhart01/Hyper-V-Internals](https://github.com/gerhart01/Hyper-V-Internals)
 
 一些其他的：
 
