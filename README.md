@@ -200,6 +200,16 @@ github securitylab有很多关于漏洞挖掘的文章：
 
 [https://securitylab.github.com/research/](https://securitylab.github.com/research/)
 
+一系列关于fuzz的文章，使用fuzz，fuzz评估，patch分析1day漏洞，发现0day漏洞：
+
+[https://ricercasecurity.blogspot.com/2023/07/fuzzing-farm-1-fuzzing-gegl-with-fuzzuf.html](https://ricercasecurity.blogspot.com/2023/07/fuzzing-farm-1-fuzzing-gegl-with-fuzzuf.html)
+
+[https://ricercasecurity.blogspot.com/2023/07/fuzzing-farm-2-evaluating-performance.html](https://ricercasecurity.blogspot.com/2023/07/fuzzing-farm-2-evaluating-performance.html)
+
+[https://ricercasecurity.blogspot.com/2023/07/fuzzing-farm-3-patch-analysis-and-poc.html](https://ricercasecurity.blogspot.com/2023/07/fuzzing-farm-3-patch-analysis-and-poc.html)
+
+[https://ricercasecurity.blogspot.com/2023/07/fuzzing-farm-4-hunting-and-exploiting-0.html](https://ricercasecurity.blogspot.com/2023/07/fuzzing-farm-4-hunting-and-exploiting-0.html)
+
 ### windows
 
 微信：
