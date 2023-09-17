@@ -88,6 +88,10 @@ syzkaller(https://github.com/google/syzkaller)
 
 google开源的linux内核fuzz工具，也有将其移植到windows/macOS的资料。
 
+这篇文章就挺好，用syzkaller fuzz ksmbd，这种内核添加的新功能还是比较容易fuzz出漏洞的。
+
+[Tickling ksmbd: fuzzing SMB in the Linux kernel](https://pwning.tech/ksmbd-syzkaller/)
+
 GitLab's protocol fuzzing framework(https://gitlab.com/gitlab-org/security-products/protocol-fuzzer-ce)
 
 peach是前几年比较流行的协议fuzz工具，分为免费版和收费版，在2020年gitlab收购了开发peach的公司之后于2021年进行了开源。不过从commit记录来看目前gitlab也没有怎么维护。
