@@ -214,6 +214,10 @@ github securitylab有很多关于漏洞挖掘的文章：
 
 [https://ricercasecurity.blogspot.com/2023/07/fuzzing-farm-4-hunting-and-exploiting-0.html](https://ricercasecurity.blogspot.com/2023/07/fuzzing-farm-4-hunting-and-exploiting-0.html)
 
+AFL++的开发者分析了为什么ossfuzz没有fuzz出libwebp的0day漏洞CVE-2023-4863：
+
+[ADVANCED FUZZING UNMASKS ELUSIVE VULNERABILITIES](https://www.srlabs.de/blog-post/advanced-fuzzing-unmasks-elusive-vulnerabilities)
+
 ### windows
 
 微信：
