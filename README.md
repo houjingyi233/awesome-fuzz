@@ -122,10 +122,6 @@ fuzzers(https://gitlab.com/gitlab-org/security-products/analyzers/fuzzers)
 
 对不同编程语言的fuzz。
 
-yarpgen(https://github.com/intel/yarpgen)
-
-生成随机程序查找编译器错误。
-
 cryptofuzz(https://github.com/guidovranken/cryptofuzz)
 
 对一些密码学库的fuzz。
@@ -399,3 +395,15 @@ fuzz出了mtk/华为等厂商路由器wifi协议的多个漏洞：
 蚂蚁金服的wifi协议fuzz工具，基于openwifi，也fuzz出了多个漏洞：
 
 [https://github.com/alipay/Owfuzz](https://github.com/alipay/Owfuzz)
+
+### CPU
+
+生成复杂程序fuzz CPU，仅支持RISC-V，不过效果挺好，已经在5个RISC-V CPU中找到了37个bug(29个CVE)：
+
+[https://github.com/comsec-group/cascade-artifacts](https://github.com/comsec-group/cascade-artifacts)
+
+### 编译器
+
+生成随机程序fuzz编译器，在gcc/clang等各种编译器中找到了200多个bug：
+
+[https://github.com/intel/yarpgen](https://github.com/intel/yarpgen)
