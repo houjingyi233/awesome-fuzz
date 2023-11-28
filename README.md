@@ -254,6 +254,8 @@ windows图片解析：
 
 windows office：
 
+fuzz office中的MSGraph COM 组件
+
 [Fuzzing the Office Ecosystem](https://research.checkpoint.com/2021/fuzzing-the-office-ecosystem/)
 
 POC2018，fuzz出了多个文件阅读器的漏洞，fuzzer原理类似前面说的trapfuzz
@@ -273,6 +275,12 @@ fuzz文件阅读器中的脚本引擎，fuzz出了多个foxit和adobe的漏洞�
 开发语法感知的fuzzer，发现解析postscript的漏洞
 
 [Smash PostScript Interpreters Using A Syntax-Aware Fuzzer](https://www.zscaler.com/blogs/security-research/smash-postscript-interpreters-using-syntax-aware-fuzzer)
+
+fuzz 3D模型中解析skp文件产生的漏洞
+
+[ThreatLabz Discovers 117 Vulnerabilities in Microsoft 365 Apps Via the SketchUp 3D Library - Part 1](https://www.zscaler.com/blogs/security-research/threatlabz-discovers-117-vulnerabilities-microsoft-365-apps-sketchup-3d)
+
+[ThreatLabz Discovers 117 Vulnerabilities in Microsoft 365 Apps Via the SketchUp 3D Library - Part 2](https://www.zscaler.com/blogs/security-research/threatlabz-discovers-117-vulnerabilities-microsoft-365-apps-sketchup-3d-0)
 
 windows字体解析：
 
