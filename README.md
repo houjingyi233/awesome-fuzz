@@ -224,6 +224,8 @@ RDP：
 
 [Fuzzing RDPEGFX with "what the fuzz"](https://blog.thalium.re/posts/rdpegfx/)
 
+[Fuzzing RDP: Holding the Stick at Both Ends](https://www.cyberark.com/resources/threat-research-blog/fuzzing-rdp-holding-the-stick-at-both-ends)
+
 [Fuzzing Microsoft's RDP Client using Virtual Channels: Overview & Methodology](https://thalium.github.io/blog/posts/fuzzing-microsoft-rdp-client-using-virtual-channels/)
 
 PDF：
