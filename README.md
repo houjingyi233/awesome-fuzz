@@ -332,6 +332,8 @@ linux设备驱动fuzz：
 
 fuzz android系统服务：
 
+[Hunting for Android Privilege Escalation with a 32 Line Fuzzer](https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/hunting-for-android-privilege-escalation-with-a-32-line-fuzzer/)
+
 [The Fuzzing Guide to the Galaxy: An Attempt with Android System Services](https://blog.thalium.re/posts/fuzzing-samsung-system-services/)
 
 ### macOS
