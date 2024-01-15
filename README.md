@@ -336,6 +336,12 @@ fuzz android系统服务：
 
 [The Fuzzing Guide to the Galaxy: An Attempt with Android System Services](https://blog.thalium.re/posts/fuzzing-samsung-system-services/)
 
+fuzz android系统权限：
+
+[https://github.com/little-leiry/CuPerFuzzer](https://github.com/little-leiry/CuPerFuzzer)
+
+[Leveraging Android Permissions: A Solver Approach](https://blog.thalium.re/posts/leveraging-android-permissions/)
+
 ### macOS
 
 我专门整理的macOS的漏洞挖掘资料在这里：
