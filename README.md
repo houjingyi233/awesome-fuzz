@@ -236,6 +236,10 @@ PDF：
 
 [Creating a fuzzing harness for FoxitReader 9.7 ConvertToPDF Function](https://christopher-vella.com/2020/02/28/creating-a-fuzzing-harness-for-foxitreader-9-7-converttopdf-function/)
 
+发现了各种pdf阅读器中的100多个漏洞，讲了很多fuzz的技巧
+
+[Dig Into the Attack Surface of PDF and Gain 100+ CVEs in 1 Year](https://www.blackhat.com/docs/asia-17/materials/asia-17-Liu-Dig-Into-The-Attack-Surface-Of-PDF-And-Gain-100-CVEs-In-1-Year-wp.pdf)
+
 MSMQ：
 
 [FortiGuard Labs Discovers Multiple Vulnerabilities in Microsoft Message Queuing Service](https://www.fortinet.com/blog/threat-research/microsoft-message-queuing-service-vulnerabilities)
