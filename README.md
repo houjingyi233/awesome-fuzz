@@ -136,10 +136,6 @@ mutiny-fuzzer(https://github.com/Cisco-Talos/mutiny-fuzzer)
 
 思科的一款基于变异的网络fuzz框架，其主要原理是通过从数据包(如pcap文件)中解析协议请求并生成一个.fuzzer文件，然后基于该文件对请求进行变异，再发送给待测试的目标。
 
-KernelFuzzer(https://github.com/FSecureLABS/KernelFuzzer)
-
-windows内核fuzz。
-
 domato(https://github.com/googleprojectzero/domato)
 
 还是@ifratric的作品，根据语法生成代码，所以可以扩展用来fuzz各种脚本引擎。
@@ -215,6 +211,12 @@ AFL++的开发者分析了为什么ossfuzz没有fuzz出libwebp的0day漏洞CVE-2
 [ADVANCED FUZZING UNMASKS ELUSIVE VULNERABILITIES](https://www.srlabs.de/blog-post/advanced-fuzzing-unmasks-elusive-vulnerabilities)
 
 ### windows
+
+内核：
+
+[KernelFuzzer](https://github.com/FSecureLABS/KernelFuzzer)
+
+[SimpleNTSyscallFuzzer](https://github.com/waleedassar/SimpleNTSyscallFuzzer)
 
 微信：
 
