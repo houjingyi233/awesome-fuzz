@@ -88,9 +88,9 @@ syzkaller(https://github.com/google/syzkaller)
 
 google开源的linux内核fuzz工具，也有将其移植到windows/macOS的资料。
 
-这篇文章就挺好，用syzkaller fuzz ksmbd，这种内核添加的新功能还是比较容易fuzz出漏洞的。
+用syzkaller fuzz ksmbd : [Tickling ksmbd: fuzzing SMB in the Linux kernel](https://pwning.tech/ksmbd-syzkaller/)
 
-[Tickling ksmbd: fuzzing SMB in the Linux kernel](https://pwning.tech/ksmbd-syzkaller/)
+用syzkaller fuzz NVMe-oF/TCP : [Your NVMe Had Been Syz’ed: Fuzzing NVMe-oF/TCP Driver for Linux with Syzkaller](https://cyberark.com/resources/threat-research-blog/your-nvme-had-been-syzed-fuzzing-nvme-of-tcp-driver-for-linux-with-syzkaller)
 
 GitLab's protocol fuzzing framework(https://gitlab.com/gitlab-org/security-products/protocol-fuzzer-ce)
 
